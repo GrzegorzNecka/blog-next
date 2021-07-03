@@ -1,7 +1,6 @@
 import Layout from 'components/Layout';
 import Head from 'next/head';
 import { getListOfArticles } from 'services/articles';
-
 import Image from 'next/image';
 import Link from 'next/Link';
 
