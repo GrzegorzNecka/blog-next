@@ -14,8 +14,6 @@ export const getStaticProps = () => {
 };
 
 export default function Home({ articles }) {
-  console.log(articles);
-
   return (
     <Layout className="p-10">
       <Head>

@@ -11,7 +11,6 @@ export const getStaticProps = () => {
 };
 
 export default function Projects({ projects }) {
-  console.log('projects', projects);
   return (
     <Layout className="p-10">
       <Head>
